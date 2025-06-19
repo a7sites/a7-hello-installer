@@ -1,0 +1,128 @@
+/* CSS personalizado para o painel de boas-vindas */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap');
+
+.welcome-panel-content h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+    color: #f3f3f3;
+    padding-left: 30px;
+    padding-top: 30px;
+
+}
+.welcome-panel-content .about-description {
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    color: #b9c2d1;
+    padding-left: 30px;
+}
+.welcome-panel-column-container {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.welcome-panel-column {
+    background: #f8fafc;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    padding: 1.5rem 1rem;
+    flex: 1 1 220px;
+    min-width: 220px;
+}
+.welcome-panel-column h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+    color: #2563eb;
+}
+.welcome-panel-column ul {
+    padding-left: 1.2em;
+}
+.welcome-panel-column ul li {
+    margin-bottom: 0.5em;
+}
+.welcome-panel-column a {
+    color: #2563eb;
+    text-decoration: none;
+}
+.welcome-panel-column a:hover {
+    text-decoration: underline;
+}
+/* Fundo preto do painel com borda arredondada de 15px */
+.welcome-panel-content {
+    min-height: unset !important;
+    height: auto !important;
+}
+.a7-clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.welcome-panel {
+    border-radius: 15px !important;
+} 
+.content-header {
+    padding-bottom: 20px;
+    background: #523f6d !important;
+}
+
+/* Info Panel */
+.info-panel {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+.info-panel-item {
+    background: #330744 !important;
+    border-radius: 6px !important;
+    padding-right: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.info-panel-item h3 {
+    color: #f3f3f3;
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+}
+/* Ícone SVG em círculo branco para info-panel-item */
+.info-panel-icon-circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #41064d;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+
+}
+.info-panel-icon-circle svg {
+    width: 28px;
+    height: 28px;
+    display: block;
+}
+
+.info-panel-item p {
+    color: #f3f3f3;
+    padding-top: 10px;
+    font-weight: 300;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+}
+
+.welcome-panel-column-container .card-body {
+    min-height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.badge {
+    font-size: 0.8em !important;
+    padding: 0.5em 1em !important;
+    border-radius: 0.6em !important;
+}
