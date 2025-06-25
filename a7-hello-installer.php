@@ -2,7 +2,7 @@
 /*
 Plugin Name: A7 Hello Installer
 Description: Instala e integra o painel A7 Hello ao tema ativo e permite remover arquivos temporários após a instalação.
-Version: 1.1
+Version: 1.2
 Author: A7 Sites
 */
 
